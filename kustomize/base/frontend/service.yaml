@@ -13,3 +13,7 @@ spec:
   selector:
     app: timber-frontend
   type: NodePort
+  env:
+  - name: TIMBER_BACKEND_URL
+    value: 35.240.97.87:30288
+  
